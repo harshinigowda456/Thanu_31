@@ -8,3 +8,5 @@ int main(){
 	temp=a;
 	a=b;
 	b=temp;
+
+	printf("after swapping: a = %d, b = %d\n" , a,b);
