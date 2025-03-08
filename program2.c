@@ -4,3 +4,7 @@ int main(){
 
 	printf("enter two numbers:");
 	scanf("%d %d",&a,&b);
+
+	temp=a;
+	a=b;
+	b=temp;
